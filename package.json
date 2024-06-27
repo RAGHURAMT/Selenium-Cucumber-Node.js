@@ -1,0 +1,35 @@
+{
+  "name": "selenium_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register",
+    "test:chrome": "BROWSER=chrome npm run test",
+    "test:firefox": "BROWSER=firefox npm run test",
+    "test:safari": "BROWSER=safari npm run test",
+    "report": "ts-node e2e/runtime/reporter.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@types/chai": "^4.3.16",
+    "@types/chromedriver": "^81.0.5",
+    "@types/jsdom": "^21.1.7",
+    "@types/selenium-webdriver": "^4.1.23",
+    "chai": "^5.1.1",
+    "chromedriver": "^126.0.3",
+    "cucumber-html-reporter": "^7.1.1",
+    "cucumber-junit": "^1.7.1",
+    "geckodriver": "^4.4.1",
+    "selenium-webdriver": "^4.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "cucumber-pretty": "^6.0.1",
+    "jsdom": "^24.1.0"
+  }
+}

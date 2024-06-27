@@ -1,0 +1,24 @@
+{
+    "default": {
+      "format": ["@cucumber/pretty-formatter", "json:reports/cucumber-report.json"],
+      "require": ["step-definitions/*.ts"],
+      "formatOptions": {
+        "colorsEnabled": true,
+        "theme": {
+          "datatable border": ["green"],
+          "datatable content": ["green", "italic"],
+          "docstring content": ["green", "italic"],
+          "docstring delimiter": ["green"],
+          "feature description": ["green"],
+          "feature keyword": ["bold", "green"],
+          "rule keyword": ["yellow"],
+          "scenario keyword": ["bold"],
+          "scenario name": ["underline"],
+          "step keyword": ["bold", "white", "italic"],
+          "step text": ["italic", "green"],
+          "tag": ["cyanBright"]
+        }
+      }
+    }
+  }
+  

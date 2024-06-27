@@ -1,0 +1,78 @@
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <testsuites>
+      
+      <testsuite name="homepage.feature" tests="6" time="NaN">
+        
+        <testcase name="Verify Homepage Title" time="NaN" classname="homepage.feature">
+          
+            <failed message="I am on the BBC iPlayer homepage" />
+          
+
+            <skipped message="the page title should be "BBC iPlayer - Home"" />
+          
+        </testcase>
+      
+
+        <testcase name="The page has one iPlayer navigation menu" time="NaN" classname="homepage.feature">
+          
+            <failed message="I am on the BBC iPlayer homepage" />
+          
+
+            <skipped message="there should be one iPlayer navigation menu" />
+          
+        </testcase>
+      
+
+        <testcase name="The page has at least 4 sections that each contain 1 carousel" time="NaN" classname="homepage.feature">
+          
+            <failed message="I am on the BBC iPlayer homepage" />
+          
+
+            <skipped message="there should be at least 4 sections with carousels" />
+          
+        </testcase>
+      
+
+        <testcase name="Each carousel contains at least 4 programme items" time="NaN" classname="homepage.feature">
+          
+            <failed message="I am on the BBC iPlayer homepage" />
+          
+
+            <skipped message="there are carousels on the page" />
+          
+
+            <skipped message="each carousel should contain at least 4 programme items" />
+          
+        </testcase>
+      
+
+        <testcase name="More items in the carousel are shown when clicking a carousel arrow" time="NaN" classname="homepage.feature">
+          
+            <failed message="I am on the BBC iPlayer homepage" />
+          
+
+            <skipped message="I click the carousel arrow" />
+          
+
+            <skipped message="more items should be shown in the carousel" />
+          
+        </testcase>
+      
+
+        <testcase name="The relevant Playback page is displayed when an episode is clicked" time="NaN" classname="homepage.feature">
+          
+            <failed message="I am on the BBC iPlayer homepage" />
+          
+
+            <skipped message="I click on an episode in the carousel" />
+          
+
+            <skipped message="the relevant episodes page should be displayed" />
+          
+        </testcase>
+      
+      </testsuite>
+    
+    </testsuites>
+  

@@ -1,0 +1,280 @@
+[
+  {
+    "description": "As a user\n  I want to be able to see available programs\n  So that I can quickly navigate to relevant content",
+    "elements": [
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;verify-homepage-title",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify Homepage Title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the page title should be \"BBC iPlayer – Home\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;the-homepage-has-a-title-of-\"bbc-iplayer-–-home\"",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "The homepage has a title of \"BBC iPlayer – Home\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the page title should be \"BBC iPlayer – Home\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;the-page-has-one-iplayer-navigation-menu",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "The page has one iPlayer navigation menu",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "there should be one iPlayer navigation menu",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;the-page-has-at-least-4-sections-that-each-contain-1-carousel",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "The page has at least 4 sections that each contain 1 carousel",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "there should be at least 4 sections with carousels",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;each-carousel-contains-at-least-4-programme-items",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Each carousel contains at least 4 programme items",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "there are carousels on the page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "each carousel should contain at least 4 programme items",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;more-items-in-the-carousel-are-shown-when-clicking-a-carousel-arrow",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "More items in the carousel are shown when clicking a carousel arrow",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "there is a carousel with more than 4 items",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I click the carousel arrow",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "more items should be shown in the carousel",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;the-relevant-playback-page-is-displayed-when-an-episode-is-clicked",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "The relevant Playback page is displayed when an episode is clicked",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "there is a carousel with programme items",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I click on an episode in the carousel",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the relevant Playback page should be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "bbc-iplayer-homepage",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "BBC iPlayer Homepage",
+    "tags": [],
+    "uri": "e2e/features/homepage.feature"
+  }
+]
