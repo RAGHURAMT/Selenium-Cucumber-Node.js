@@ -23,7 +23,6 @@ try {
     metadata: {
       "App Version": "0.3.2",
       "Test Environment": "LIVE",
-      "Browser": "chrome",
       "Parallel": "Scenarios",
       "Executed": "Remote"
     },
