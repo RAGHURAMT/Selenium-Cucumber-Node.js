@@ -1,0 +1,370 @@
+[
+  {
+    "description": "As a user\n  I want to be able to see available programs\n  So that I can quickly navigate to relevant content",
+    "elements": [
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;verify-homepage-title",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify Homepage Title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4949209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3245573791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the page title should be \"BBC iPlayer - Home\"",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4111082
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54276625
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;the-page-has-one-iplayer-navigation-menu",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "The page has one iPlayer navigation menu",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 830917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1723790082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "there should be one iPlayer navigation menu",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101309832
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 110933791
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;the-page-has-at-least-4-sections-that-each-contain-1-carousel",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "The page has at least 4 sections that each contain 1 carousel",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3743792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1715039833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "there should be at least 4 sections with carousels",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16259334
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56703833
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;each-carousel-contains-at-least-4-programme-items",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Each carousel contains at least 4 programme items",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 648332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1417565042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "there are carousels on the page",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1519328499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "each carousel should contain at least 4 programme items",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11964583
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53759125
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;more-items-in-the-carousel-are-shown-when-clicking-a-carousel-arrow",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "More items in the carousel are shown when clicking a carousel arrow",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 900458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1415319958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click the carousel arrow",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79602874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "more items should be shown in the carousel",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1094394749
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56832707
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bbc-iplayer-homepage;the-relevant-playback-page-is-displayed-when-an-episode-is-clicked",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "The relevant Playback page is displayed when an episode is clicked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 804749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the BBC iPlayer homepage",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1358465917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I click on an episode in the carousel",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2062354707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the episodes page should be displayed",
+            "match": {
+              "location": "e2e/step-definitions/homepageSteps.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224631499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56434292
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "bbc-iplayer-homepage",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "BBC iPlayer Homepage",
+    "tags": [],
+    "uri": "e2e/features/homepage.feature"
+  }
+]
