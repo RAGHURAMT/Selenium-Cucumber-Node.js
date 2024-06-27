@@ -65,4 +65,4 @@ Created ci.yml under .github/workflows to automatically trigger the tests on eve
 Integrated with the Slack to share the test reports on a Slack channel on every run.
 Note: 
 1. Please note that tests will fail on the github actions tab if you miss to add your Slack webhook under Settings -> Security -> Actions
-2. If you dont like to do the slack integration, please comment the Slack Notification block in purchaseFlow.yml
+2. If you dont like to do the slack integration, please comment the Slack Notification block in ci.yml
