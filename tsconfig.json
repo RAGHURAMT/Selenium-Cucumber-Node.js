@@ -9,6 +9,6 @@
     "outDir": "./dist",
     "typeRoots": ["./node_modules/@types"],
   },
-  "include": ["e2e/**/*.ts",],
+  "include": ["e2e/**/*.ts", "e2e/runtime/generateReports.ts"],
   "exclude": ["node_modules"]
 }

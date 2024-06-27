@@ -4,7 +4,7 @@ const common = [
     '--require e2e/step-definitions/**/*.ts',
     '--require e2e/runtime/hooks.ts',
     '--format progress-bar',
-    // '--format node_modules/cucumber-pretty'
+    '--format json:e2e/runtime/reports/cucumber_report.json'
   ].join(' ');
   
   module.exports = {
